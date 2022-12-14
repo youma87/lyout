@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  border: 2px solid black;
+  justify-content: space-between;
+  padding: 30px;
+}
+.box {
+  display: flex;
+  border: 4px solid lightgray;
+  width: 350px;
+  height: 150px;
+  justify-content: space-around;
+  align-items: center;
+}
+.box-1 {
+  border: 4px solid lightgrey;
+  width: 100px;
+  height: 150px;
+}
+.small-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+}
+.cntr {
+  border: 2px solid black;
+  padding: 24px;
+  margin-top: 5px;
+}
+.wrwper-box {
+  width: 100%;
+  border: 3px solid lawngreen;
+  height: 50px;
+  margin-bottom: 24px;
+}
+.petit-box {
+  width: 30%;
+  height: 100px;
+  border: 2px solid blue;
+  margin-bottom: 24px;
+}
+.wrwper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tittle{
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 24px 24px 0 24px;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.bloc{
+    border: 2px solid yellow;
+    width: 45%;
+    margin-bottom: 24px;
+}
+.box-small{
+    height: 50px;
+}
+.squere{
+    border: 2px solid yellow;
+    margin-bottom: 24px;
+}
+.bloc1{
+    width: 50%;
+}
+.lyout{
+  border: 4px solid black;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.rond{
+  border: 2px solid brown;
+  height: 50px;
+  margin-top: 16px;
+}
+.rond-way{
+  border: 2px solid brown;
+  width: 45%;
+  margin-top: 16px;
+}
+.trip{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.cut{
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+.small-round{
+  border: 2px solid brown;
+  width: 30%;
+  height: 100%;
+}
